@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Mini App</title>
+  </head>
+  <body>
+    <h1>Hello from Telegram Mini App!</h1>
+    <p>This is my first Mini App inside Telegram.</p>
+
+    <!-- Add Telegram Web App SDK script here -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    
+    <!-- Add some JavaScript that uses Telegram features -->
+    <script>
+      // This is where we can start using Telegram features
+      console.log(Telegram.WebApp);
+    </script>
+  </body>
+</html>
